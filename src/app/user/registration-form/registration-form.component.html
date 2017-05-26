@@ -1,0 +1,25 @@
+<form (ngSubmit)="register($event)">
+    <div class="first-name">
+        <span>First Name:</span>
+        <input type="text" name="firstName" ng-model="ctrl.user.firstName">
+    </div>
+    <div>
+        <span>Last Name:</span>
+        <input type="text" name="lastName" ng-model="ctrl.user.lastName">
+    </div>
+    <div class="nacimiento">
+        <span>BirthDate:</span>
+        <input type="text" name="birthDate" ng-model="ctrl.user.birthDate">
+    </div>
+    <div>
+        <span>Email:</span>
+        <input type="text" name="email" ng-model="ctrl.user.email">
+    </div>
+    <div>
+        <span>Gender:</span>
+        <input type="text" name="gender" ng-model="ctrl.user.gender">
+    </div>
+    <div>
+        <button type="submit">Send</button> {{test}}
+    </div>
+</form>
