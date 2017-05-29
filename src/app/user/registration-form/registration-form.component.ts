@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormsModule }        from '@angular/forms';
 
 @Component({
   selector: 'registration-form',
@@ -8,13 +7,17 @@ import { FormsModule }        from '@angular/forms';
 })
 export class RegistrationFormComponent implements OnInit {
   public user = {};
-  public test:string ='hola';
+  public test:string;
   public register(event) {
     event.preventDefault();
     console.log('holis!');
   }
-  constructor() {}
 
+
+
+  constructor() {
+    
+  }
   ngOnInit() {}
 
   

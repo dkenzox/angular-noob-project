@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Noob Project!';
   nombre = 'Enzo';
+  test = 'Hola, estoy probando ' + this.nombre + ' otro text';
+  newTest = `Hola, estoy probando ${this.nombre} otro text ${this.title}`;
 }
